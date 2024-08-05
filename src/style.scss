@@ -5,8 +5,17 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.wp-block-create-block-text-box {
-	background-color: #21759b;
-	color: #fff;
-	padding: 2px;
+ .wp-block-create-block-text-box{
+	background-color: none;
+	color: #333;
+	font-size: 16px;
+	&.text-box-align-right{
+		text-align: right;
+	}
+	&.text-box-align-center{
+		text-align: center;
+	}
+	&.text-box-align-left{
+		text-align: left;
+	}
 }

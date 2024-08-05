@@ -5,7 +5,6 @@
 	"version": "0.1.0",
 	"title": "Text Box",
 	"category": "text",
-	"icon": "text-page",
 	"description": "Text block scaffolded with Create Block tool.",
 	"keywords": ["text", "paragraph", "box"],
 	"supports": {
@@ -15,5 +14,16 @@
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",
-	"viewScript": "file:./view.js"
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"text": {
+			"type": "string",
+			"source": "html",
+			"selector": "h3"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "left"
+		}
+	}
 }

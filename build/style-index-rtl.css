@@ -8,7 +8,16 @@
  * Replace them with your own styles or remove the file completely.
  */
 .wp-block-create-block-text-box {
-  background-color: #21759b;
-  color: #fff;
-  padding: 2px;
+  background-color: none;
+  color: #333;
+  font-size: 16px;
+}
+.wp-block-create-block-text-box.text-box-align-right {
+  text-align: left;
+}
+.wp-block-create-block-text-box.text-box-align-center {
+  text-align: center;
+}
+.wp-block-create-block-text-box.text-box-align-left {
+  text-align: right;
 }

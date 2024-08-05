@@ -27,6 +27,11 @@ import metadata from './block.json';
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
 registerBlockType( metadata.name, {
+	icon: {
+		src: 'text-page',
+		background: '#000',
+		foreground: '#fff'
+	},
 	/**
 	 * @see ./edit.js
 	 */
